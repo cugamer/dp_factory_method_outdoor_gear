@@ -9,6 +9,8 @@ public class MountainKit extends WildernessKit {
 			return new HeavyCoat();
 		}else if(type.equals("Climbing Kit")){
 			return new IceClimbingKit();
+		}else if(type.equals("Tent")){
+			return new InsulatedTent();
 		}else{
 			System.out.println("Invalid gear type specified");
 			return null;
